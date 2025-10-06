@@ -1,0 +1,1 @@
+A totally local MCP server client using locally running LLM
