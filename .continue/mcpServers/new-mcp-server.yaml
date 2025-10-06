@@ -1,0 +1,11 @@
+name: Gradio MCP Server
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: Sentiment analysis tool
+    command: npx
+    args:
+      - "-y"
+      - "mcp-remote"
+      - "http://localhost:7860/gradio_api/mcp/"
+    env: {}

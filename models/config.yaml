@@ -1,0 +1,4 @@
+models:
+  - model: ./models/Devstral-Small-2505-UD-IQ2_M.gguf
+    n_ctx: 5120
+    n_gpu_layers: -1

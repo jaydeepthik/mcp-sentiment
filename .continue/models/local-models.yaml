@@ -1,0 +1,11 @@
+name: Llama.cpp model
+version: 0.0.1
+schema: v1
+models:
+  - provider: "openai"
+    model: ./models/Devstral-Small-2505-UD-IQ2_M.gguf
+    apiBase: http://localhost:8000/v1/
+    name: Llama.cpp Devstral-Small
+    roles:
+      - chat
+      - edit
